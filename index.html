@@ -24,6 +24,8 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
+	<div class="container">
+
 		<section
 			id="intro"
 			class="d-flex flex-column justify-content-center align-items-center"
@@ -47,12 +49,14 @@
 		</section>
 		<section id="contact" class="d-flex flex-column justify-content-center">
 			<h1>Contact</h1>
-			<h5>
-				Want to get in touch? Shoot me an
-				<a href="mailto:max@zane.tech">email</a> or fill out the form below.
-			</h5>
-			<form class="row">
-				<div class="col-xs-12 col-sm-10 col-md-6">
+			<div class="row">
+				<div class="col">
+					<h5>
+						Want to get in touch? Shoot me an
+						<a href="mailto:max@zane.tech">email</a> or fill out the form.
+					</h5>
+				</div>
+				<form class="col-xs-12 col-md-6">
 					<div class="row">
 						<div class="col">
 							<input type="text" placeholder="First Name" />
@@ -72,6 +76,12 @@
 					<div>
 						<button type="button" class="btn btn-primary">Send 📬</button>
 					</div>
+				</form>
+			</div>
+
+			<form class="row">
+				<div class="col-xs-12 col-sm-10 col-md-6">
+
 				</div>
 			</form>
 		</section>
@@ -142,5 +152,7 @@
 			</div>
 		</section>
 		<footer>© 2022 Zane Tech LLC</footer>
+	</div>
+
 	</body>
 </html>

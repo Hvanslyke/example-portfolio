@@ -1,5 +1,6 @@
 /*https://coolors.co/01161e-124559-598392-d5e4f5-dac4f7*/
 body {
+	background: #01161e;
 	font-family: "Open Sans", sans-serif;
 }
 
@@ -122,6 +123,7 @@ footer {
 	padding: 30px;
 	color: white;
 	background: black;
+	box-shadow:-10px 0 25px #01161e;
 }
 
 .card {
