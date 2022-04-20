@@ -58,7 +58,7 @@ section {
 #intro #arrowDown {
 	font-size: 75px;
 	color: #598392;
-	opacity: 0;
+	opacity: 1;
 	animation-name: fadein;
 	animation-delay: 4s;
 	animation-duration: 1s;
@@ -66,6 +66,7 @@ section {
 
 	position: absolute;
 	bottom: 30px;
+	left: calc(50% - 37px);
 }
 
 #intro #arrowDown:hover {
