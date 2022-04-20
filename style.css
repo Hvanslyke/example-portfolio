@@ -1,4 +1,4 @@
-/*https://coolors.co/01161e-124559-598392-aec3b0-eff6e0*/
+/*https://coolors.co/01161e-124559-598392-d5e4f5-dac4f7*/
 body {
 	font-family: "Open Sans", sans-serif;
 }
@@ -109,8 +109,7 @@ form .btn-primary {
 
 #portfolio {
 	padding: 30px;
-	background: #845a6d;
-	color: white;
+	background: #D5E4F5;
 }
 
 #portfolio .btn-primary {
