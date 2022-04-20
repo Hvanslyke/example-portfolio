@@ -63,6 +63,9 @@ section {
 	animation-delay: 4s;
 	animation-duration: 1s;
 	animation-fill-mode: forwards;
+
+	position: absolute;
+	bottom: 30px;
 }
 
 #intro #arrowDown:hover {
