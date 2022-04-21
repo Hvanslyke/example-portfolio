@@ -6,7 +6,7 @@ body {
 
 section {
 	min-height: 30vh;
-	box-shadow:-10px 0 25px #01161e;
+	box-shadow: -10px 0 25px #01161e;
 }
 
 #intro {
@@ -113,7 +113,7 @@ form .btn-primary {
 
 #portfolio {
 	padding: 30px;
-	background: #D5E4F5;
+	background: #d5e4f5;
 }
 
 #portfolio .btn-primary {
@@ -125,11 +125,54 @@ footer {
 	padding: 30px;
 	color: white;
 	background: black;
-	box-shadow:-10px 0 25px #01161e;
+	box-shadow: -10px 0 25px #01161e;
 }
 
 .card {
 	color: black;
 	margin-top: 15px;
 	margin-bottom: 15px;
+}
+
+#portfolio a {
+	text-decoration: none;
+}
+
+.bg-dark {
+	background-color: #598392 !important;
+}
+
+section#project {
+	background: #124559;
+	color: white;
+	padding: 30px;
+}
+
+.badge {
+	background-color: #01161e;
+	font-size: 14px;
+}
+
+#project img {
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+#project .btn-primary {
+	background-color: #598392;
+}
+
+#project .navigate {
+	color: white;
+	font-size: 50px;
+}
+
+#project .navigate:hover {
+	color: #598392;
+}
+
+@media only screen and (max-width: 800px) {
+	#project .navigate {
+		font-size: 32px;
+	}
 }
