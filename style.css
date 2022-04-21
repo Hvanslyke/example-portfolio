@@ -171,8 +171,6 @@ section#project {
 	color: #598392;
 }
 
-@media only screen and (max-width: 800px) {
-	#project .navigate {
-		font-size: 32px;
-	}
+#project a {
+	text-decoration: none;
 }
